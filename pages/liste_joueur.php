@@ -12,6 +12,7 @@ include("fonctions.php");
         <div class="col-lg-2"><img src="../public/images/logo-QuizzSA.png" alt="logo"></div>
         <div class="col-lg-7">CULTURE GENERALE</div>
         <div class="col-lg-3">
+        <a class="btn btn-info" href="admin.php" id="" style="margin-top: 2px;">Accueil</a>
             <a class="btn btn-success" href="deconnexion.php" id="deconnexion" style="margin-top: 2px;">Deconnexion</a>
         </div>
 

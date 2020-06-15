@@ -157,7 +157,7 @@ class register{
                     $mess='<font size="2" Face="Arial Black" color="red">extention non autorisé</font>';
                     }
                     }else{
-                    $mess='<font size="2" Face="Arial Black" color="red">Vous devez Séléctionner un élément</font>';
+                    $mess='<font size="2" Face="Arial Black" color="red">Vous devez séléctionner un élément</font>';
                     }
             }else {
                 $mess= 'Les mots de pass ne sont pas identiques';
@@ -167,7 +167,7 @@ class register{
             } 
             
         }else {
-        $mess= 'Veuillez remplir toutes les champs';
+        $mess= '<font size="2" Face="Arial Black" color="red">Veuillez remplir toutes les champs</font>';
         }
         return $mess;
     }
